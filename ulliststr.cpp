@@ -176,7 +176,7 @@ std::string* ULListStr::getValAtLoc(size_t loc) const
   {
     return NULL;
   }
-  int remainsize = (head_->last) - (head_->first);
+  unsigned int remainsize = (head_->last) - (head_->first);
   Item* temp = head_;
   while (true){
     remainsize = (temp->last) - (temp->first);
